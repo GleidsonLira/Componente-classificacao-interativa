@@ -20,3 +20,23 @@
 body{
     background-color: var(--verydarkblue);
 }
+
+.window{
+    background-color: var(--darkblue);
+    border-radius: 5%;
+}
+
+.circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.grey{
+    background-color: var(--bgrey);
+}
+
+.button{
+    padding: 0;
+    border: none;
+}
