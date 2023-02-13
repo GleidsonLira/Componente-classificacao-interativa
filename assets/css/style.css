@@ -40,3 +40,26 @@ body{
     padding: 0;
     border: none;
 }
+
+.ml{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mt{
+    margin-top: 1rem;
+}
+
+#submit{
+    margin-top: 2rem;
+    border-radius: 30px;
+    width: 246px;
+    padding: 10px 25px;
+    color: var(--orange);
+    border: none;
+    align-self: center;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
