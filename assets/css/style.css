@@ -63,3 +63,18 @@ body{
 #submit:hover{
     cursor: pointer;
 }
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--mediumgrey);
+}
+
+.text{
+    color: var(--mediumgrey);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 23px;
+}
