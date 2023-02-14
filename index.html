@@ -7,40 +7,58 @@
     <title>Document</title>
 </head>
 
-<body>
-    <!-- Rating state start -->
-  <div class="container">
-    <div class="window" style="height: 320px;width: 300px;display: flex;flex-direction: column;">
-      <div style="display: flex;justify-content: center;align-items: center;" class="icon circle grey ml mt 1">
-        <img src="./images/icon-star.svg" alt="">
+  <body>
+      
+    <div class="container">
+
+      <div class="window" style="height: 320px;width: 300px;display: flex;flex-direction: column;">
+
+        <div style="display: flex;justify-content: center;align-items: center;" class="icon circle grey ml mt 1">
+          <img src="./images/icon-star.svg" alt="">
+
+      </div>
+
+      <div class="title ml mt 1">
+
+        <h1>How did we do?</h1>
+
+      </div>
+
+      <div class="text ml mt 1">
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+      </div>
+
+      <div style="align-self: center;" class="ratings mt 1">
+
+        <button class="button circle grey">1</button>
+        <button class="button circle grey">2</button>
+        <button class="button circle grey">3</button>
+        <button class="button circle grey">4</button>
+        <button class="button circle grey">5</button>
+
+      </div>
+
+      <button id="submit">SUBMIT</button>
+
     </div>
-    <div class="title ml mt 1"><h1>How did we do?</h1></div>
-  <div class="text ml mt 1">
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-  </div>
-  <div style="align-self: center;" class="ratings mt 1">
-    <button class="button circle grey">1</button>
-    <button class="button circle grey">2</button>
-    <button class="button circle grey">3</button>
-    <button class="button circle grey">4</button>
-    <button class="button circle grey">5</button>
-  </div>
-  <button id="submit">SUBMIT</button>
 
-</div>
+    <div class="window2 hidden" style="height: 320px;width: 370px;display: flex;flex-direction: column;">
 
-<div class="window2 hidden" style="height: 320px;width: 370px;display: flex;flex-direction: column;">
+      <div class="selection"></div>
 
-<div class="selection"></div>
-   <img style="width: 250px;" src="/images/illustration-thank-you.svg" alt="">
-<h2>Thank you!</h2>
-<div class="text">We appreciate you taking the time to give a rating. If you ever need more support, 
-don't hesitate to get in touch!</div>
-</div>
-Thank you state end  
+        <img style="width: 250px;" src="/images/illustration-thank-you.svg" alt="">
 
-</div>
+        <h2>Thank you!</h2>
 
-</body>
+        <div class="text">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!
+        </div>
+      
+      </div>
+
+    </div>
+
+  </body>
+
 </html>
