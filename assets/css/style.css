@@ -78,3 +78,28 @@ body{
 h1{
     font-size: 23px;
 }
+
+.ratings{
+    display: flex;
+    gap: 9px;
+}
+
+.clicked{
+    background-color: var(--orange);
+}
+
+.window2{
+    background-color: var(--darkblue);
+    border-radius: 5%;
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
